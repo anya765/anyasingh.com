@@ -10,7 +10,7 @@ const consultingProjectsData = [
     title3: 'Benchsci: Gameifying AI-Assisted Reagent Selection and Experimentation',
     description3:
       'This project is a fully responsive & complex marketing website with smooth animations built with Next.js & Framer-Motion.',
-    imgSrc3: '/static/images/projects/Benchsci.png',
+    imgSrc3: '/static/images/projects/benchsci.png',
     href3: 'https://benchsci.super.site/',
   },
 
