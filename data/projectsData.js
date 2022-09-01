@@ -1,8 +1,6 @@
 const projectsData = [
   // {
   //   title: 'Analyzing post birth risks with placenta samples',
-  //   description:
-  //     'This project is a fully responsive & complex marketing website with smooth animations built with Next.js & Framer-Motion.',
   //   imgSrc: '/static/images/projects/placenta.png',
   //   href: 'https://drive.google.com/file/d/1F-mDTJJCnlZDC_vHudI2UUI4OPEpjSEE/view?usp=sharing',
   // },

@@ -9,7 +9,7 @@ linkedin: https://www.linkedin.com/in/anya-singh
 github: https://github.com/anya765
 ---
 
-At the moment, I'm developing my skills in AI by building projects.
+At the moment, I'm building projects in reinforcement learning.
 
 My interests change often but I usually like writing, talking about philosophy, working with tools and design, coding,
 and playing chess.

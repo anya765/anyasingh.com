@@ -18,7 +18,7 @@ export async function getStaticProps() {
 const gradients = {
   0: ' from-[#F28C28] via-[#C04000] to-[#FF7F50]',
   1: ' from-[#D8B4FE] to-[#818CF8]',
-  2: ' to-[#6EE7B7] from-[#6EE7F9]',
+  2: ' to-[#5be3ad] from-[#46d5eb]',
 }
 
 export default function Home({ posts }) {
@@ -69,7 +69,7 @@ export default function Home({ posts }) {
                   <div
                     className={
                       `absolute -inset-0 rounded-xl bg-gradient-to-r blur-sm transition duration-1000 group-hover:-inset-1 group-hover:blur-md group-hover:duration-500` +
-                      gradients[index]
+                      gradients[2]
                     }
                   ></div>
                   <article className="bg-background-color relative h-full rounded-xl">
@@ -85,7 +85,7 @@ export default function Home({ posts }) {
                       </div>
                       <div className="mt-10 flex">
                         <div className="capsize flex items-center text-gray-800 dark:text-gray-200">
-                          <svg
+                          {/* <svg
                             xmlns="http://www.w3.org/2000/svg"
                             className="mr-2 h-6 w-6"
                             fill="none"
@@ -104,7 +104,7 @@ export default function Home({ posts }) {
                               strokeWidth="2"
                               d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
                             ></path>
-                          </svg>
+                          </svg> */}
                         </div>
                       </div>
                     </div>
@@ -120,7 +120,7 @@ export default function Home({ posts }) {
                   <div
                     className={
                       `absolute -inset-0 rounded-xl bg-gradient-to-r blur-sm transition duration-1000 group-hover:-inset-1 group-hover:blur-md group-hover:duration-500` +
-                      gradients[index]
+                      gradients[2]
                     }
                   ></div>
                   <article className="bg-background-color relative h-full rounded-xl">
@@ -136,7 +136,7 @@ export default function Home({ posts }) {
                       </div>
                       <div className="mt-10 flex">
                         <div className="capsize flex items-center text-gray-800 dark:text-gray-200">
-                          <svg
+                          {/* <svg
                             xmlns="http://www.w3.org/2000/svg"
                             className="mr-2 h-6 w-6"
                             fill="none"
@@ -155,7 +155,7 @@ export default function Home({ posts }) {
                               strokeWidth="2"
                               d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
                             ></path>
-                          </svg>
+                          </svg> */}
                         </div>
                       </div>
                     </div>
@@ -169,7 +169,7 @@ export default function Home({ posts }) {
                   <div
                     className={
                       `absolute -inset-0 rounded-xl bg-gradient-to-r blur-sm transition duration-1000 group-hover:-inset-1 group-hover:blur-md group-hover:duration-500` +
-                      gradients[index]
+                      gradients[2]
                     }
                   ></div>
                   <article className="bg-background-color relative h-full rounded-xl">
@@ -185,7 +185,7 @@ export default function Home({ posts }) {
                       </div>
                       <div className="mt-10 flex">
                         <div className="capsize flex items-center text-gray-800 dark:text-gray-200">
-                          <svg
+                          {/* <svg
                             xmlns="http://www.w3.org/2000/svg"
                             className="mr-2 h-6 w-6"
                             fill="none"
@@ -204,7 +204,7 @@ export default function Home({ posts }) {
                               strokeWidth="2"
                               d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
                             ></path>
-                          </svg>
+                          </svg> */}
                         </div>
                       </div>
                     </div>

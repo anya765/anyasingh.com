@@ -5,6 +5,7 @@ import otherProjectsData from '@/data/otherProjectsData'
 import consultingProjectsData from '@/data/consultingProjectsData'
 import Card from '@/components/Card'
 import { PageSEO } from '@/components/SEO'
+import { green } from '@tailwindcss/typography/src/styles'
 
 export default function Projects() {
   return (
@@ -16,7 +17,7 @@ export default function Projects() {
             Projects
           </h1>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            Projects I've worked on. Check out my Github for more.
+            Projects I've worked on.
           </p>
         </div>
         <div className="container py-12">
