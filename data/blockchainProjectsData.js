@@ -7,7 +7,7 @@ const blockchainProjectsData = [
     href2: 'https://github.com/anya765/nftcredity-hardhat',
   },
   {
-    title2: 'blockchain internal scalability test with pixel paint (made with rust)',
+    title2: 'Blockchain internal scalability test with pixel paint (made with rust)',
     description2:
       'A single page website that mints NFTs for the user on the largest marketplace (OpenSea) and is fully responsive. Built using Next.js, Framer-Motion and Supabase.',
     imgSrc2: '/static/images/projects/paint.png',

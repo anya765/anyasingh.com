@@ -16,6 +16,7 @@ const siteMetadata = {
   twitter: 'https://twitter.com/_anyasingh',
   youtube: 'https://www.youtube.com/channel/UC35sWEJj8pgzdHE4FlpZOsA',
   linkedin: 'https://www.linkedin.com/in/anya-singh',
+  medium: 'https://medium.com/@anyasingh',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the

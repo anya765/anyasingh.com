@@ -2,7 +2,7 @@ import { useRef, useState } from 'react'
 
 import siteMetadata from '@/data/siteMetadata'
 
-const NewsletterForm = ({ title = 'Subscribe to the newsletter' }) => {
+const NewsletterForm = ({ title = 'Receive monthly updates from me' }) => {
   const inputEl = useRef(null)
   const [error, setError] = useState(false)
   const [message, setMessage] = useState('')
@@ -58,13 +58,13 @@ const NewsletterForm = ({ title = 'Subscribe to the newsletter' }) => {
           </div>
           <div className="mt-2 flex w-full rounded-md shadow-sm sm:mt-0 sm:ml-3">
             <button
-              className={`w-full rounded-md bg-primary-500 py-2 px-4 font-medium text-white sm:py-0 ${
+              className={`w-full rounded-md bg-primary-500 py-2 px-2 font-medium text-white sm:py-0 ${
                 subscribed ? 'cursor-default' : 'hover:bg-primary-700 dark:hover:bg-primary-400'
               } focus:outline-none focus:ring-2 focus:ring-primary-600 focus:ring-offset-2 dark:ring-offset-black`}
               type="submit"
               disabled={subscribed}
             >
-              {subscribed ? 'Thank you!' : 'Sign up'}
+              {subscribed ? 'Thanks!' : 'Submit'}
             </button>
           </div>
         </form>
