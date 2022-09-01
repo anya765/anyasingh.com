@@ -216,15 +216,7 @@ export default function Home({ posts }) {
         </ul>
 
         {posts.length > MAX_DISPLAY && (
-          <div className="mt-6 flex justify-end text-base font-medium leading-6">
-            <Link
-              href="/blog"
-              className="text-background-color hover:text-primary-600 dark:text-white dark:hover:text-primary-400"
-              aria-label="all posts"
-            >
-              All Posts &rarr;
-            </Link>
-          </div>
+          <div className="mt-6 flex justify-end text-base font-medium leading-6"></div>
         )}
       </div>
     </>
