@@ -36,6 +36,11 @@ export default function Home({ posts }) {
             </Link>
           </p>
         </div>
+        {siteMetadata.newsletter.provider !== '' && (
+          <div className="col-span-2 flex xl:items-center xl:justify-center xl:pl-6">
+            <NewsletterForm />
+          </div>
+        )}
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
           {!posts.length && 'No posts found.'}
           {posts.slice(0, MAX_DISPLAY).map((frontMatter) => {
