@@ -2,7 +2,8 @@ const siteMetadata = {
   title: 'Anya Singh Personal Website',
   author: 'Anya Singh',
   headerTitle: 'Anya Singh',
-  description:
+  description: 'personal website and portfolio',
+  descriptionabout:
     'I spend most of my time working on hard problems and trying to understand the world around me. At the moment, I am developing my technical skills in AI and Robotics working on blockchain research, and exploring climate.',
   language: 'en-us',
   theme: 'light', // system, dark or light
