@@ -1,21 +1,21 @@
 const siteMetadata = {
-  title: 'Next.js Starter Blog',
-  author: 'Tails Azimuth',
-  headerTitle: 'TailwindBlog',
-  description: 'A blog created with Next.js and Tailwind.css',
+  title: 'Anya Singh Personal Website',
+  author: 'Anya Singh',
+  headerTitle: 'Anya Singh',
+  description:
+    'I spend most of my time working on hard problems and trying to understand the world around me. At the moment, I am developing my technical skills in AI and Robotics working on blockchain research, and exploring climate.',
   language: 'en-us',
-  theme: 'system', // system, dark or light
-  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
-  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
+  theme: 'light', // system, dark or light
+  siteUrl: 'https://anyasingh.com',
+  siteRepo: '',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',
-  email: 'address@yoursite.com',
-  github: 'https://github.com',
-  twitter: 'https://twitter.com/Twitter',
-  facebook: 'https://facebook.com',
-  youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com',
+  email: 'anyalovesai@gmail.com',
+  github: 'https://github.com/anya765',
+  twitter: 'https://twitter.com/_anyasingh',
+  youtube: 'https://www.youtube.com/channel/UC35sWEJj8pgzdHE4FlpZOsA',
+  linkedin: 'https://www.linkedin.com/in/anya-singh',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
