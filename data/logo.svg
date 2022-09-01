@@ -1,3 +1,20 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid meet" viewBox="257.3002514103748 273.6326804445026 40.80046145627182 46.36731955549749" width="36.8" height="42.37"><defs><path d="M267.69 281.9L273.81 302.47L267.65 308.43L260.31 282.03L260.36 281.98L260.16 281.98L265.19 275.41L295.1 274.63L290.49 281.65L267.69 281.9Z" id="azoNB3Vhb"></path><linearGradient id="gradienta33QAtoBOC" gradientUnits="userSpaceOnUse" x1="293.42" y1="278.05" x2="293.42" y2="313.21"><stop style="stop-color: #67e8f9;stop-opacity: 1" offset="0%"></stop><stop style="stop-color: #06b6d4;stop-opacity: 1" offset="100%"></stop></linearGradient><path d="M293.22 310.41L293.42 310.41L288.22 316.87L258.3 317L263.09 310.08L285.9 310.33L280.31 289.62L286.62 283.81L293.28 310.35L293.22 310.41Z" id="cVvL12Sg2"></path><linearGradient id="gradientd153WjyVy" gradientUnits="userSpaceOnUse" x1="260.07" y1="313.62" x2="260.98" y2="278.47"><stop style="stop-color: #67e8f9;stop-opacity: 1" offset="0%"></stop><stop style="stop-color: #06b6d4;stop-opacity: 1" offset="100%"></stop></linearGradient></defs><g><g><use xlink:href="#azoNB3Vhb" opacity="1" fill="url(#gradienta33QAtoBOC)"></use></g><g><use xlink:href="#cVvL12Sg2" opacity="1" fill="url(#gradientd153WjyVy)"></use></g></g></svg>
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="30.000000pt" height="30.000000pt" viewBox="0 0 128.000000 128.000000"
+ preserveAspectRatio="xMidYMid meet">
+
+<g transform="translate(0.000000,128.000000) scale(0.100000,-0.100000)"
+fill="#000000" stroke="none">
+<path d="M130 1208 c-19 -13 -45 -39 -58 -58 l-23 -34 3 -482 c3 -469 4 -483
+24 -511 11 -15 40 -38 64 -51 44 -22 47 -22 501 -22 l456 0 43 23 c30 16 51
+37 67 67 l23 43 0 456 c0 454 0 457 -22 501 -13 24 -36 53 -51 64 -28 20 -42
+21 -511 24 l-482 3 -34 -23z m655 -260 c34 -120 165 -603 165 -610 0 -4 -47
+-8 -104 -8 l-105 0 -6 54 -7 53 -46 6 c-26 3 -68 3 -94 0 -50 -6 -51 -7 -63
+-75 l-6 -38 -100 0 c-91 0 -100 2 -95 18 21 71 179 594 187 620 l11 32 123 0
+124 0 16 -52z"/>
+<path d="M607 706 c-15 -57 -27 -107 -27 -110 0 -3 25 -6 55 -6 61 0 63 4 46
+70 -5 19 -15 61 -21 93 -6 31 -15 57 -19 57 -4 0 -19 -47 -34 -104z"/>
+</g>
+</svg>
