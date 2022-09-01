@@ -10,7 +10,7 @@ const projectsData = [
     title: 'placeholder for when im acc doing useful things ',
     description: 'placeholder for when im acc doing useful things ',
     imgSrc: '/static/images/projects/joke.png',
-    href: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+    href: '',
   },
   // {
   //   title: 'Blockchain',
