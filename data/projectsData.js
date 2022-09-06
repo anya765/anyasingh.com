@@ -1,14 +1,8 @@
 const projectsData = [
-  // {
-  //   title: 'Analyzing post birth risks with placenta samples',
-  //   imgSrc: '/static/images/projects/placenta.png',
-  //   href: 'https://drive.google.com/file/d/1F-mDTJJCnlZDC_vHudI2UUI4OPEpjSEE/view?usp=sharing',
-  // },
   {
-    title: 'placeholder for when im acc doing useful things ',
-    description: 'placeholder for when im acc doing useful things ',
-    imgSrc: '/static/images/projects/joke.png',
-    href: '',
+    title: 'Analyzing post birth risks with placenta samples',
+    imgSrc: '/static/images/projects/placenta.png',
+    href: 'https://drive.google.com/file/d/1F-mDTJJCnlZDC_vHudI2UUI4OPEpjSEE/view?usp=sharing',
   },
   // {
   //   title: 'Blockchain',
