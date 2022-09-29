@@ -33,8 +33,8 @@ export default function Home({ posts }) {
             </h1>
             <p>
               I spend most of my time working on hard problems and trying to <br /> understand the
-              world around me. At the moment, I'm developing my technical <br /> skills in AI and
-              working on blockchain research, and exploring climate tech.
+              world around me. At the moment, I'm developing my <br /> technical skills in AI and
+              working on blockchain research, and <br /> exploring climate tech.
             </p>
             <p className="leading-7 text-gray-500 underline underline-offset-4 sm:pr-6 sm:text-lg">
               <Link
