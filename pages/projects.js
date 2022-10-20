@@ -38,6 +38,7 @@ export default function Projects() {
               ))}
             </div>
             <h3 className="text-xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-3xl md:leading-14">
+              <br /> <br />
               Blockchain
             </h3>
             <br /> <br />
