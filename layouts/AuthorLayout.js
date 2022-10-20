@@ -40,6 +40,7 @@ export default function AuthorLayout({ children, frontMatter }) {
 
         <div className="mt-10">
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+            <br /> <br />
             Experience
           </h1>
           <div className="max-w-none pt-8 pb-8 xl:col-span-2">
