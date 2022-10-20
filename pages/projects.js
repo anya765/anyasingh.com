@@ -23,7 +23,6 @@ export default function Projects() {
         <div className="container py-12">
           <div className="-m-4 flex flex-wrap">
             <h3 className="text-xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-3xl md:leading-14">
-              <br /> <br />
               AI and Robotics
             </h3>
             <div className="-m-10 flex flex-wrap" style={{ marginTop: '10px', width: '105%' }}>
