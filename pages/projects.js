@@ -23,21 +23,6 @@ export default function Projects() {
         <div className="container py-12">
           <div className="-m-4 flex flex-wrap">
             <h3 className="text-xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-3xl md:leading-14">
-              Blockchain
-            </h3>
-            <br /> <br />
-            <div className="-m-10 flex flex-wrap" style={{ marginTop: '10px', width: '105%' }}>
-              {blockchainProjectsData.map((d) => (
-                <Card
-                  key={d.title2}
-                  title={d.title2}
-                  // description={d.description2}
-                  imgSrc={d.imgSrc2}
-                  href={d.href2}
-                />
-              ))}
-            </div>
-            <h3 className="text-xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-3xl md:leading-14">
               <br /> <br />
               AI and Robotics
             </h3>
@@ -49,6 +34,21 @@ export default function Projects() {
                   // description={d.description}
                   imgSrc={d.imgSrc}
                   href={d.href}
+                />
+              ))}
+            </div>
+            <h3 className="text-xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-3xl md:leading-14">
+              Blockchain
+            </h3>
+            <br /> <br />
+            <div className="-m-10 flex flex-wrap" style={{ marginTop: '10px', width: '105%' }}>
+              {blockchainProjectsData.map((d) => (
+                <Card
+                  key={d.title2}
+                  title={d.title2}
+                  // description={d.description2}
+                  imgSrc={d.imgSrc2}
+                  href={d.href2}
                 />
               ))}
             </div>
