@@ -18,7 +18,7 @@ export async function getStaticProps() {
 const gradients = {
   0: ' from-[#F28C28] via-[#C04000] to-[#FF7F50]',
   1: ' from-[#D8B4FE] to-[#818CF8]',
-  2: ' to-[#5be3ad] from-[#46d5eb]',
+  2: ' to-[#0F2027] from-[#2C5364]',
 }
 
 export default function Home({ posts }) {
