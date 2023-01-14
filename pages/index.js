@@ -4,9 +4,6 @@ import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import { getAllFilesFrontMatter } from '@/lib/mdx'
 import formatDate from '@/lib/utils/formatDate'
-import image1 from './image-1.jpg'
-
-
 
 import NewsletterForm from '@/components/NewsletterForm'
 
@@ -21,7 +18,7 @@ export async function getStaticProps() {
 const gradients = {
   0: ' from-[#F28C28] via-[#C04000] to-[#FF7F50]',
   1: ' from-[#D8B4FE] to-[#818CF8]',
-  2: ' to-[#5be3ad] from-[#46d5ec]',
+  2: ' to-[#5be3ad] from-[#46d5eb]',
 }
 
 export default function Home({ posts }) {
@@ -53,17 +50,6 @@ export default function Home({ posts }) {
               <NewsletterForm />
             </div>
           )}
-        </div>
-
-        <div className="gallery-container">
-        <ul className="gallery">
-          <li className="gallery-item"><img src= {image1} alt="Image 1" /></li>
-          <li className="gallery-item"><img src="image-2.jpg" alt="Image 2" /></li>
-          <li className="gallery-item"><img src="image-3.jpg" alt="Image 3" /></li>
-          <li className="gallery-item"><img src="image-4.jpg" alt="Image 4" /></li>
-          <li className="gallery-item"><img src="image-5.jpg" alt="Image 5" /></li>
-        </ul>
-
         </div>
 
         <h1 className="my-4 mt-16 pb-2 text-3xl font-bold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl">
