@@ -33,10 +33,13 @@ export default function Home({ posts }) {
             </h1>
             <p>
               I spend most of my time working on hard problems and trying to <br /> understand the
-              world around me. At the moment, I'm building climate <br /> solutions with AI,
-              working on blockchain research, and generally <br /> exploring <Link
-                href="selfsupervisedlearning.substack.com" >
-                <a> <mark>things I find interesting.</mark></a>
+              world around me. At the moment, I'm building climate <br /> solutions with AI, working
+              on blockchain research, and generally <br /> exploring{' '}
+              <Link href="selfsupervisedlearning.substack.com">
+                <a>
+                  {' '}
+                  <mark>things I find interesting.</mark>
+                </a>
               </Link>
             </p>
             <p className="leading-7 text-gray-500 underline underline-offset-4 sm:pr-6 sm:text-lg">
@@ -114,9 +117,7 @@ export default function Home({ posts }) {
                   </article>
                 </Link>
                 <Link
-                  href={
-                    'https://www.youtube.com/watch?v=_-3d8nF_Rtw'
-                  }
+                  href={'https://www.youtube.com/watch?v=_-3d8nF_Rtw'}
                   key={slug}
                   className="group relative w-full transform transition-all duration-500 hover:scale-[1] hover:duration-500 md:w-1/3"
                 >
@@ -132,7 +133,8 @@ export default function Home({ posts }) {
                         <div className="space-y-6">
                           <div>
                             <h2 className="text-xl font-semibold leading-8 tracking-tight text-gray-900 dark:text-gray-100">
-                              zkEVMs, the future of ethereum scaling, and the implications of blockchain vulnerabilities
+                              zkEVMs, the future of ethereum scaling, and the implications of
+                              blockchain vulnerabilities
                             </h2>
                           </div>
                         </div>
@@ -181,7 +183,8 @@ export default function Home({ posts }) {
                         <div className="space-y-6">
                           <div>
                             <h2 className="text-xl font-semibold leading-8 tracking-tight text-gray-900 dark:text-gray-100">
-                              Leveraging the blockchain for business transformation <br /> @ Collision Conf
+                              Leveraging the blockchain for business transformation <br /> @
+                              Collision Conf
                             </h2>
                           </div>
                         </div>
