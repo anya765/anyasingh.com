@@ -2,7 +2,7 @@ import { useRef, useState } from 'react'
 
 import siteMetadata from '@/data/siteMetadata'
 
-const NewsletterForm = ({ title = 'Receive monthly updates from me' }) => {
+const NewsletterForm = ({ title = 'sign up for monthly updates :)' }) => {
   const inputEl = useRef(null)
   const [error, setError] = useState(false)
   const [message, setMessage] = useState('')
@@ -36,7 +36,7 @@ const NewsletterForm = ({ title = 'Receive monthly updates from me' }) => {
 
   return (
     <div className="group relative">
-      <div className="animate-tilt absolute -inset-px animate-pulse rounded-2xl bg-gradient-to-r from-primary-500 via-[#F28C28] to-[#FF7F50] blur-md transition duration-1000 group-hover:-inset-1 group-hover:animate-none group-hover:opacity-100 group-hover:duration-1000"></div>
+      <div className="animate-tilt absolute -inset-px rounded-2xl bg-gradient-to-r from-[#013220] to-[#013220] blur-sm transition duration-1000 group-hover:-inset-1 group-hover:animate-none group-hover:opacity-100 group-hover:duration-1000"></div>
       <div className="dark:bg-background-color relative h-full w-full rounded-2xl bg-white px-6 py-6 sm:py-8 sm:px-12">
         <div className="pb-1 text-lg font-semibold text-gray-800 dark:text-gray-100">{title}</div>
         <form className="flex flex-col sm:flex-row" onSubmit={subscribe}>
@@ -58,8 +58,8 @@ const NewsletterForm = ({ title = 'Receive monthly updates from me' }) => {
           </div>
           <div className="mt-2 flex w-full rounded-md shadow-sm sm:mt-0 sm:ml-3">
             <button
-              className={`w-full rounded-md bg-primary-500 py-2 px-2 font-medium text-white sm:py-0 ${
-                subscribed ? 'cursor-default' : 'hover:bg-primary-700 dark:hover:bg-primary-400'
+              className={`w-full rounded-md bg-[#013220] py-2 px-2 font-medium text-white sm:py-0 ${
+                subscribed ? 'cursor-default' : 'hover:[#013220] dark:hover:[#013220]'
               } focus:outline-none focus:ring-2 focus:ring-primary-600 focus:ring-offset-2 dark:ring-offset-black`}
               type="submit"
               disabled={subscribed}

@@ -1,9 +1,10 @@
 const headerNavLinks = [
-  { href: '/', title: 'Home' },
-  { href: '/projects', title: 'Projects' },
-  { href: '/about', title: 'About' },
-  { href: 'https://anyasingh.substack.com', title: 'Updates' },
-  { href: 'https://selfsupervisedlearning.substack.com', title: 'AI newsletter' },
+  { href: '/', title: 'home' },
+  { href: '/projects', title: 'projects' },
+  { href: '/about', title: 'about' },
+  { href: 'https://anyasingh.substack.com', title: 'updates' },
+  { href: 'https://selfsupervisedlearning.substack.com', title: 'ai newsletter' },
+  { href: '/bookshelf', title: 'bookshelf'}
 ]
 
 export default headerNavLinks

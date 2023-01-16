@@ -13,7 +13,7 @@ export default function AuthorLayout({ children, frontMatter }) {
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-            About
+            about
           </h1>
         </div>
         <div className="items-start space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
@@ -35,13 +35,13 @@ export default function AuthorLayout({ children, frontMatter }) {
               <SocialIcon kind="twitter" href={twitter} />
             </div>
           </div>
-          <div className="prose max-w-none pt-8 pb-8 dark:prose-dark xl:col-span-2">{children}</div>
+          <div className="prose max-w-none pt-8 pb-8 dark:prose-[#013220] xl:col-span-2">{children}</div>
         </div>
 
         <div className="mt-10">
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
             <br /> <br />
-            Experience
+            experiences
           </h1>
           <div className="max-w-none pt-8 pb-8 xl:col-span-2">
             {experienceData.map((d) => (
@@ -52,10 +52,11 @@ export default function AuthorLayout({ children, frontMatter }) {
                 url={d.url}
                 text1={d.text1}
                 text2={d.text2}
+                text3={d.text3}
+                text4={d.text4}
                 company={undefined}
                 location={undefined}
-                text3={undefined}
-                text4={undefined}
+
               />
             ))}
           </div>

@@ -3,31 +3,35 @@ const experienceData = [
     title: 'Blockchain Research & Development',
     company: '',
     location: '',
-    range: 'Jan 2022 - current',
+    range: 'Jun 2022 - current',
     text1:
-      'Currently working on research in efficient zero-knowledge proof generation and cryptographic automation to build secure networks and systems with students from Purdue University.',
+      'Research in efficient zero-knowledge proof generation and cryptographic automation to build secure networks and systems with students from Purdue University.',
     text2:
-      'Worked on the development of a mobile-based blockchain as an alternative banking solution - pitched research findings in areas including cryptography, encryption, evms and efficient proofs, ideated technological implementations for SMS-based encryption and proof generation',
+      'Developed implementation mobile-based blockchain as an alternative banking solution',
+    text3: 'Created research memos on the use of SVMs to accurately grade and categorize blockchain data and vulnerabilities on new networks',
+    text4: 'Presented research at 2 academic booths/conferences'
   },
   {
     title: 'Innovation Developer',
     company: '',
     location: '',
-    range: 'June 2022 - August 2022',
+    range: 'Jun 2022 - August 2022',
     url: 'https://rbc.com',
-    text1:
-      'Worked at RBC on an internal business tool for securely shortening URLs with React, TypeScript, FastAPI, and MariaDB. Designed a browser extension and splash page around user experience, convenience, and utility',
-    text2:
-      'Conducted user interviews while working on weekly sprints in an agile environment, enhanced design and features to increase user adoption amongst the inner source and agile development teams of RBC.',
+    text1:'Designed and developed an internal business tool for securely shortening URLs with React, TypeScript, FastAPI, and MariaDB',
+    text2: 'Created a browser extension, slack bot and splash page focusing on convenience, security, and ease of use',
+    text3: 'Conducted user interviews while working on weekly sprints in an agile environment',
+    text4: 'Presented to RBC Execs during demo days'
+
   },
   {
     title: 'Product Design and Development',
     company: '',
     location: '',
-    range: 'April 2022 - June 2022',
-    text1: 'Worked on product at a startup building courses and tools for blockchain developers',
-    text2:
-      'talked to over 30 developers about their experience using different products, pitched 4 recommendations to product development team to optimize for key metrics ',
+    range: 'Mar 2022 - Jun 2022',
+    text1: 'Designed Solana Pay course for new Rust developers',
+    text2:'Synthesized feedback from over 30 developers on the improvement of core product, developed new marketing plan',
+    text3: 'Pitched 4 recommendations to product development team to optimize for builder retention and course time spent',
+    text4: 'Created product and company roadmaps with wireframes for future product ideas',
   },
 ]
 

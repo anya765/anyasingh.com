@@ -4,7 +4,7 @@ import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import { getAllFilesFrontMatter } from '@/lib/mdx'
 import formatDate from '@/lib/utils/formatDate'
-
+import defaultTheme from 'tailwindcss/defaultTheme'
 import NewsletterForm from '@/components/NewsletterForm'
 
 const MAX_DISPLAY = 5
@@ -16,9 +16,9 @@ export async function getStaticProps() {
 }
 
 const gradients = {
-  0: ' from-[#F28C28] via-[#C04000] to-[#FF7F50]',
+  0: ' from-[#F28C28] to-[#FF7F50]',
   1: ' from-[#D8B4FE] to-[#818CF8]',
-  2: ' to-[#5be3ad] from-[#46d5eb]',
+  2: ' to-[#013220] from-[#013220]',
 }
 
 export default function Home({ posts }) {
@@ -33,15 +33,18 @@ export default function Home({ posts }) {
             </h1>
             <p>
               I spend most of my time working on hard problems and trying to <br /> understand the
-              world around me. At the moment, I'm developing my <br /> technical skills in AI and
-              working on blockchain research, and <br /> exploring climate tech.
+              world around me. At the moment, I'm building climate <br /> solutions with AI,
+              working on blockchain research, and generally <br /> exploring <Link
+                href="selfsupervisedlearning.substack.com" >
+                <a> <mark>things I find interesting.</mark></a>
+              </Link>
             </p>
             <p className="leading-7 text-gray-500 underline underline-offset-4 sm:pr-6 sm:text-lg">
               <Link
                 href="/about"
-                className="hover:cursor-pointer hover:text-primary-500 dark:text-gray-500 hover:dark:text-primary-500"
+                className="hover:cursor-pointer hover:text-[#013220] dark:text-gray-500 hover:dark:text-primary-500"
               >
-                <a>Read the rest of my bio &rarr;</a>
+                <a>Read more &rarr;</a>
               </Link>
             </p>
           </div>
@@ -62,13 +65,13 @@ export default function Home({ posts }) {
             return (
               <>
                 <Link
-                  href={'https://www.youtube.com/watch?v=_-3d8nF_Rtw'}
+                  href={'https://medium.com/geekculture/towards-meta-rl-b80586019292'}
                   key={slug}
-                  className="group relative w-full transform transition-all duration-500 hover:scale-[1.05] hover:duration-500 md:w-1/3"
+                  className="group relative w-full transform transition-all duration-500 hover:scale-[1] hover:duration-500 md:w-1/3"
                 >
                   <div
                     className={
-                      `absolute -inset-0 rounded-xl bg-gradient-to-r blur-sm transition duration-1000 group-hover:-inset-1 group-hover:blur-md group-hover:duration-500` +
+                      `absolute -inset-0 rounded-xl bg-gradient-to-r blur-sm transition duration-500 group-hover:-inset-1 group-hover:blur-sm group-hover:duration-500` +
                       gradients[2]
                     }
                   ></div>
@@ -112,14 +115,14 @@ export default function Home({ posts }) {
                 </Link>
                 <Link
                   href={
-                    'https://medium.com/@anyasingh/banking-the-unbanked-using-defi-for-financial-inclusion-8225f62d56f1'
+                    'https://www.youtube.com/watch?v=_-3d8nF_Rtw'
                   }
                   key={slug}
-                  className="group relative w-full transform transition-all duration-500 hover:scale-[1.05] hover:duration-500 md:w-1/3"
+                  className="group relative w-full transform transition-all duration-500 hover:scale-[1] hover:duration-500 md:w-1/3"
                 >
                   <div
                     className={
-                      `absolute -inset-0 rounded-xl bg-gradient-to-r blur-sm transition duration-1000 group-hover:-inset-1 group-hover:blur-md group-hover:duration-500` +
+                      `absolute -inset-0 rounded-xl bg-gradient-to-r blur-sm transition duration-1000 group-hover:-inset-1 group-hover:blur-sm group-hover:duration-500` +
                       gradients[2]
                     }
                   ></div>
@@ -129,7 +132,7 @@ export default function Home({ posts }) {
                         <div className="space-y-6">
                           <div>
                             <h2 className="text-xl font-semibold leading-8 tracking-tight text-gray-900 dark:text-gray-100">
-                              Mobile solutions can change banking
+                              zkEVMs, the future of ethereum scaling, and the implications of blockchain vulnerabilities
                             </h2>
                           </div>
                         </div>
@@ -164,11 +167,11 @@ export default function Home({ posts }) {
                 <Link
                   href={'https://www.youtube.com/watch?v=_-3d8nF_Rtw'}
                   key={slug}
-                  className="group relative w-full transform transition-all duration-500 hover:scale-[1.05] hover:duration-500 md:w-1/3"
+                  className="group relative w-full transform transition-all duration-500 hover:scale-[1] hover:duration-500 md:w-1/3"
                 >
                   <div
                     className={
-                      `absolute -inset-0 rounded-xl bg-gradient-to-r blur-sm transition duration-1000 group-hover:-inset-1 group-hover:blur-md group-hover:duration-500` +
+                      `absolute -inset-0 rounded-xl bg-gradient-to-r blur-sm transition duration-1000 group-hover:-inset-1 group-hover:blur-sm group-hover:duration-500` +
                       gradients[2]
                     }
                   ></div>
@@ -178,7 +181,7 @@ export default function Home({ posts }) {
                         <div className="space-y-6">
                           <div>
                             <h2 className="text-xl font-semibold leading-8 tracking-tight text-gray-900 dark:text-gray-100">
-                              Companies can use blockchain for utility <br /> @ Collision Conf
+                              Leveraging the blockchain for business transformation <br /> @ Collision Conf
                             </h2>
                           </div>
                         </div>
