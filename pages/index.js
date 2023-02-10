@@ -42,7 +42,7 @@ export default function Home({ posts }) {
               </Link>
               <br /> solutions with AI, working on blockchain research, and generally <br />{' '}
               exploring{' '}
-              <Link href="selfsupervisedlearning.substack.com">
+              <Link href="https://selfsupervisedlearning.substack.com">
                 <a>
                   {' '}
                   <mark>things I find interesting.</mark>
