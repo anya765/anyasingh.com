@@ -15,6 +15,6 @@ I like asking questions, thinking critically about the world by reading, and fre
 
 <h4> What am I up to now? </h4>
 
-I'm on a research sprint for the next few months to learn about energy and poverty cycles in rural Africa with the aim to write a whitepaper on a framework for NPOs to maximize their return per dollar. Also enjoying [writing problem memos](https://www.notion.so/anyasingh/Memo-Agricultural-food-waste-from-farms-in-rural-India-e18fa87799e2430886249d968dee2a72). Playing tennis too. 
+I'm on a research sprint for the next few months to learn about energy and poverty cycles in rural Africa with the aim to write a whitepaper on a framework for NPOs to maximize their return per dollar with Solar4Africa. Also enjoying [writing problem memos](https://www.notion.so/anyasingh/Memo-Agricultural-food-waste-from-farms-in-rural-India-e18fa87799e2430886249d968dee2a72). Playing tennis too. 
 
 [Feel free to reach out](mailto:anyalovesai@gmail.com)
