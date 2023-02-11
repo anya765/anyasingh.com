@@ -33,7 +33,7 @@ export default function Home({ posts }) {
             </h1>
             <p>
               I spend most of my time working on hard problems and trying to <br /> understand the
-              world around me. At the moment, I'm building climate
+              world around me. At the moment, I'm building <u><Link href = "https://anyasingh.notion.site/discovering-cost-effective-catalysts-for-renewable-energy-ba151fdabab64d289680d88ac57d49e4climate">climate</Link></u>
               <br /> solutions with AI, working on blockchain research, and generally <br />{' '}
               exploring{' '}
               <Link href="https://selfsupervisedlearning.substack.com">
@@ -51,6 +51,7 @@ export default function Home({ posts }) {
                 <a>Read more &rarr;</a>
               </Link>
             </p>
+            
           </div>
           {siteMetadata.newsletter.provider !== '' && (
             <div className="col-span-2 flex xl:items-center xl:justify-center xl:pl-6">
