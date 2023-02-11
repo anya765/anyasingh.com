@@ -35,7 +35,7 @@ export default function Home({ posts }) {
               I spend most of my time working on hard problems and trying to <br /> understand the
               world around me. At the moment, I'm building
               <Link href="https://anyasingh.notion.site/discovering-cost-effective-catalysts-for-renewable-energy-ba151fdabab64d289680d88ac57d49e4climate">
-                <u>climate</u>
+                <mark> climate</mark>
               </Link>
               <br /> solutions with AI, working on blockchain research, and generally <br />{' '}
               exploring{' '}
