@@ -33,7 +33,7 @@ export default function Home({ posts }) {
             </h1>
             <p>
               I spend most of my time working on hard problems and trying to <br /> understand the
-              world around me. At the moment, I'm building
+              world around me. At the moment, I'm building:&nbsp;
               <Link href="https://anyasingh.notion.site/discovering-cost-effective-catalysts-for-renewable-energy-ba151fdabab64d289680d88ac57d49e4climate">
                 <mark>climate</mark>
               </Link>
