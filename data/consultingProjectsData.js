@@ -1,5 +1,12 @@
 const consultingProjectsData = [
   {
+    title3: 'CAE: enabling a mutually beneficial partnership with startups ',
+    description3:
+      'A single page website that mints NFTs for the user on the largest marketplace (OpenSea) and is fully responsive. Built using Next.js, Framer-Motion and Supabase.',
+    imgSrc3: '/static/images/projects/cae.png',
+    href3: 'https://drive.google.com/file/d/1QQPcqV6d7iRCm8z9SHZUccKkD6E0vu2L/view?usp=sharing',
+  },
+  {
     title3: 'Adapting IKEA to the customer of 2030',
     description3:
       'An enterprise resource planning software to manage daily processes including Accounting, Invoice Generation & Tax Filing. It was built to be fully responsive using Next.js & Supabase and aims to automate various processes and enhance productivity of employeess.',

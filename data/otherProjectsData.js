@@ -1,5 +1,12 @@
 const otherProjectsData = [
   {
+    title4: 'ARCH - Adaptive Resilient Climate Housing',
+    description4:
+      'This project is a fully responsive & complex marketing website with smooth animations built with Next.js & Framer-Motion.',
+    imgSrc4: '/static/images/projects/arch.png',
+    href4: 'https://archprojects.com',
+  },
+  {
     title4: 'Tungsten - peer to peer wireless energy transfer',
     description4:
       'This project is a fully responsive & complex marketing website with smooth animations built with Next.js & Framer-Motion.',

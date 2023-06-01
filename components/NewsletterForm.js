@@ -2,7 +2,7 @@ import { useRef, useState } from 'react'
 
 import siteMetadata from '@/data/siteMetadata'
 
-const NewsletterForm = ({ title = 'sign up for monthly updates :)' }) => {
+const NewsletterForm = ({ title = 'keep updated 🗺️' }) => {
   const inputEl = useRef(null)
   const [error, setError] = useState(false)
   const [message, setMessage] = useState('')

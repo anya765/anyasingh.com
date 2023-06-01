@@ -9,10 +9,10 @@ const siteMetadata = {
   theme: 'light', // system, dark or light
   siteUrl: 'https://anyasingh.com',
   siteRepo: '',
-  siteLogo: '/static/images/logo.png',
+  siteLogo: '/static/images/logo.svg',
   image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',
-  email: 'anyalovesai@gmail.com',
+  email: 'anyasingh070605@gmail.com',
   github: 'https://github.com/anya765',
   twitter: 'https://twitter.com/_anyasingh',
   youtube: 'https://www.youtube.com/@_anyasingh',

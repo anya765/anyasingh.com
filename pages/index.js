@@ -6,6 +6,7 @@ import { getAllFilesFrontMatter } from '@/lib/mdx'
 import formatDate from '@/lib/utils/formatDate'
 import defaultTheme from 'tailwindcss/defaultTheme'
 import NewsletterForm from '@/components/NewsletterForm'
+import Image from 'next/image'
 
 const MAX_DISPLAY = 5
 
@@ -27,43 +28,109 @@ export default function Home({ posts }) {
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
       <div className="divide divide-gray-200 px-2 dark:divide-gray-700 sm:px-0">
         <div className="grid grid-cols-1 space-y-10 py-4 sm:space-y-5 sm:py-14 xl:grid-cols-5">
-          <div className="col-span-3 justify-center space-y-5 align-middle">
+          <div className="col-span-3 space-y-5">
             <h1 className="text-background-color pt-2 text-4xl font-bold leading-9 tracking-tight dark:text-gray-100 sm:text-5xl sm:leading-10 md:text-6xl md:leading-snug">
               Anya Singh
             </h1>
             <p>
-              I spend most of my time working on hard problems and trying to <br /> understand the
-              world around me. At the moment, I'm building&nbsp;
-              <Link href="https://anyasingh.notion.site/discovering-cost-effective-catalysts-for-renewable-energy-ba151fdabab64d289680d88ac57d49e4climate">
-                <mark>climate</mark>
-              </Link>
-              <br /> solutions with AI, working on blockchain research, and generally <br />{' '}
-              exploring{' '}
-              <Link href="https://selfsupervisedlearning.substack.com">
-                <a>
-                  {' '}
-                  <mark>things I find interesting.</mark>
-                </a>
-              </Link>
+              I spend most of my time working on hard engineering problems. I want to build new
+              ideas that shape the future of how we think, learn, and build.
             </p>
-            <p className="leading-7 text-gray-500 underline underline-offset-4 sm:pr-6 sm:text-lg">
-              <Link
-                href="/about"
-                className="hover:cursor-pointer hover:text-[#013220] dark:text-gray-500 hover:dark:text-primary-500"
+            <p>I love making people laugh and thinking critically about the world.</p>
+            <p>
+              In my spare time, I’m learning math. I like to create hypotheses about interesting
+              problems in technical industries.
+            </p>
+            <p>
+              I also really like{' '}
+              <a
+                href="https://www.janestreet.com/puzzles/"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <a>Read more &rarr;</a>
-              </Link>
+                <b>
+                  {' '}
+                  <u> puzzles. </u>{' '}
+                </b>
+              </a>
             </p>
           </div>
-          {siteMetadata.newsletter.provider !== '' && (
-            <div className="col-span-2 flex xl:items-center xl:justify-center xl:pl-6">
-              <NewsletterForm />
+
+          <div className="col-span-2 flex flex-col items-center justify-center xl:pl-6">
+            <Image src="/static/images/projects/pfp.png" alt="PFP" width={1920} height={1440} />
+          </div>
+        </div>
+
+        <div className="mt-4 flex flex-col items-center">
+          <svg
+            className="h-12 w-12 animate-bounce text-gray-500"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M19 14l-7 7m0 0l-7-7m7 7V3"
+            />
+          </svg>
+        </div>
+
+        <div className="grid grid-cols-1 space-y-10 py-4 sm:space-y-5 sm:py-14 xl:grid-cols-5">
+          <div className="col-span-3 space-y-5">
+            <Image
+              src="/static/images/projects/collage.png"
+              alt="collage"
+              width={(1600 * 1.75) / 6}
+              height={(2000 * 1.75) / 6}
+            />
+          </div>
+
+          <div className="col-span-2 flex flex-col items-center justify-center xl:pl-6">
+            <div className="flex max-w-lg rounded-md border border-gray-300 p-4">
+              <div>
+                <p className="font-bold">Previously I:</p>
+                <ul className="list-disc pl-6">
+                  <li>did research and engineering with Purdue & EF</li>
+                  <li>
+                    spent 6 months exploring prosthetics and wearables while developing software at
+                    an athletic development company
+                  </li>
+                  <li>raised &gt;15k from the government to build smart tech for athletes</li>
+                  <li>
+                    drafted a paper on how the market for lemons perpetuates poverty traps with
+                    Solar4Africa
+                  </li>
+                  <li>
+                    used machine learning to understand + optimize new battery (lithium titanate)
+                    chemistry
+                  </li>
+                  <li>built climate resilient housing for droughts in Kenya</li>
+                  <li>
+                    moved out @ 17 and played tennis in SoCal for half a year after graduating high
+                    school
+                  </li>
+                  <li>
+                    growing up played an abnormal amount of chess (and represented Canada at intl.
+                    tournaments + SPFGI 3x)
+                  </li>
+                  <li>
+                    did other things &amp; failed - like creating an AI card game like Cards Against
+                    Humanity and piloting SMS tech w/ GPT-3 in Bolivia
+                  </li>
+                </ul>
+              </div>
             </div>
-          )}
+          </div>
+        </div>
+        <div className="mt-8 flex items-center justify-center">
+          <NewsletterForm />
         </div>
 
         <h1 className="my-4 mt-16 pb-2 text-3xl font-bold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl">
-          Featured Content{' '}
+          Recently{' '}
         </h1>
         <ul className="flex flex-col gap-10 dark:border-gray-700 md:flex-row">
           {!posts.length && 'No posts found.'}
@@ -121,7 +188,7 @@ export default function Home({ posts }) {
                   </article>
                 </Link>
                 <Link
-                  href={'https://www.youtube.com/watch?v=_-3d8nF_Rtw'}
+                  href={'https://thearchprojects.com'}
                   key={slug}
                   className="group relative w-full transform transition-all duration-500 hover:scale-[1] hover:duration-500 md:w-1/3"
                 >
@@ -137,8 +204,7 @@ export default function Home({ posts }) {
                         <div className="space-y-6">
                           <div>
                             <h2 className="text-xl font-semibold leading-8 tracking-tight text-gray-900 dark:text-gray-100">
-                              zkEVMs, the future of ethereum scaling, and the implications of
-                              blockchain vulnerabilities
+                              The ARCH Project - Engineering Adaptive Resilient Climate Housing
                             </h2>
                           </div>
                         </div>
@@ -171,7 +237,9 @@ export default function Home({ posts }) {
                   </article>
                 </Link>
                 <Link
-                  href={'https://www.youtube.com/watch?v=_-3d8nF_Rtw'}
+                  href={
+                    'https://selfsupervisedlearning.substack.com/p/a-hypothesis-for-addressing-rural'
+                  }
                   key={slug}
                   className="group relative w-full transform transition-all duration-500 hover:scale-[1] hover:duration-500 md:w-1/3"
                 >
@@ -187,8 +255,8 @@ export default function Home({ posts }) {
                         <div className="space-y-6">
                           <div>
                             <h2 className="text-xl font-semibold leading-8 tracking-tight text-gray-900 dark:text-gray-100">
-                              Leveraging the blockchain for business transformation <br /> @
-                              Collision Conf
+                              A hypothesis for addressing rural poverty - analyzing the market for
+                              lemons market failure
                             </h2>
                           </div>
                         </div>
