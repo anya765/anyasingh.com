@@ -3,13 +3,14 @@ import Image from '@/components/Image'
 import { PageSEO } from '@/components/SEO'
 import Experience from '@/components/Experience'
 import experienceData from '@/data/experienceData'
+import siteMetadata from '@/data/siteMetadata'
 
 export default function AuthorLayout({ children, frontMatter }) {
   const { name, avatar, occupation, company, email, twitter, linkedin, github } = frontMatter
 
   return (
     <>
-      <PageSEO title={`About - ${name}`} descriptionabout={`About me - ${name}`} />
+      <PageSEO title={`About - ${siteMetadata.author}`} descriptionabout={`About me - ${name}`} />
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
