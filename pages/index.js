@@ -48,10 +48,8 @@ export default function Home({ posts }) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <b>
-                  {' '}
-                  <u> puzzles. </u>{' '}
-                </b>
+                {' '}
+                <u> puzzles. </u>{' '}
               </a>
             </p>
           </div>
