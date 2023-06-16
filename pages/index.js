@@ -123,9 +123,6 @@ export default function Home({ posts }) {
             </div>
           </div>
         </div>
-        <div className="mt-8 flex items-center justify-center">
-          <NewsletterForm />
-        </div>
 
         <h1 className="my-4 mt-16 pb-2 text-3xl font-bold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl">
           Recently{' '}
