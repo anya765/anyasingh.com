@@ -1,5 +1,5 @@
 const siteMetadata = {
-  title: "Anya's Personal Website",
+  title: 'Anya Singh',
   author: 'Anya Singh',
   headerTitle: 'Anya Singh',
   description: 'personal website, updates, and portfolio',
