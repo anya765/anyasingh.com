@@ -9,13 +9,13 @@ linkedin: https://www.linkedin.com/in/anya-singh
 github: https://github.com/anya765
 ---
 
-Hi, I'm Anya! Thanks for stopping by. Here's a bit more about me and what's consuming me these days:
+hi, i'm anya! more about me and what's consuming me these days:
 
-I like asking questions and talking to new people. I read a fair bit also - check out my [bookshelf](anyasingh.com/bookshelf)
+i like asking questions and talking to new people. I enjoy the process of going deep into unknown technical fields.
 
-I feel my most creative and thoughtful being physically active - running, climbing, skiing, swimmming. I'm usually up (and very excited) for new adventures.
+i feel my most creative and thoughtful being physically active - running, climbing, skiing, swimmming, playing tennis. i'm usually up for (and very excited about) new adventures.
 
-<h4> What am I up to now? </h4>
-i'm still figuring out what I want to work on next. for now, learning to become a better engineer.
+<h4> what am i up to now? </h4>
+i'm learning to be a better engineer.
 
-[Feel free to reach out](mailto:anyasingh070605@gmail.com)
+[feel free to reach out](mailto:anyasingh070605@gmail.com)

@@ -77,7 +77,7 @@ export default function Home({ posts }) {
         </div>
 
         <div className="grid grid-cols-1 space-y-10 py-4 sm:space-y-5 sm:py-14 xl:grid-cols-5">
-          <div className="col-span-3 space-y-5">
+          <div className="col-span-2 space-y-5">
             <Image
               src="/static/images/projects/collage.png"
               alt="collage"
@@ -86,29 +86,29 @@ export default function Home({ posts }) {
             />
           </div>
 
-          <div className="col-span-2 flex flex-col items-center justify-center xl:pl-6">
+          <div className="col-span-3 flex flex-col items-center justify-center xl:pl-6">
             <div className="flex max-w-lg rounded-md border border-gray-300 p-4">
               <div>
                 <p className="font-bold">Previously I:</p>
                 <ul className="list-disc pl-6">
                   <li>did research and engineering with Purdue & EF</li>
                   <li>
-                    spent 6 months exploring prosthetics and wearables while developing software at
-                    an athletic development company
+                    explored prosthetics and wearables while developing software at an athletic
+                    development company
                   </li>
-                  <li>raised &gt;15k from the government to build smart tech for athletes</li>
+                  <li>raised $$$ to build smart tech for athletes</li>
                   <li>
                     drafted a paper on how the market for lemons perpetuates poverty traps with
                     Solar4Africa
                   </li>
+                  <li>analyzed satellite telemetry data @ JPL</li>
                   <li>
                     used machine learning to understand + optimize new battery (lithium titanate)
                     chemistry
                   </li>
                   <li>built climate resilient housing for droughts in Kenya</li>
                   <li>
-                    moved out @ 17 and played tennis in SoCal for half a year after graduating high
-                    school
+                    moved out @ 17 + played tennis in SoCal for 6 mo. after graduating high school
                   </li>
                   <li>
                     growing up played an abnormal amount of chess (and represented Canada at intl.
