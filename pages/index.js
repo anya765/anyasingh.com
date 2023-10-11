@@ -43,11 +43,7 @@ export default function Home({ posts }) {
             </p>
             <p>
               I also really like{' '}
-              <a
-                href="https://www.janestreet.com/puzzles/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href="https://projecteuler.net/about" target="_blank" rel="noopener noreferrer">
                 {' '}
                 <u> puzzles. </u>{' '}
               </a>

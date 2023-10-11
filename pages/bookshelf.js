@@ -45,6 +45,13 @@ export default function Bookshelf() {
             <li>building scientific apparatus </li>
             <li>why nations fail </li>
             <li>bell labs - idea factory </li>
+            <li>
+              <a href="https://thesephist.com/posts/prolific-focus/">prolific focus </a>{' '}
+            </li>
+            <li>
+              <a href="https://sive.rs/kimo">there is no speed limit </a>{' '}
+            </li>
+            <li>building scientific apparatus</li>
             <li>the design of everyday things </li>
             <li>the art and science of doing engineering </li>
             <li>invention on principle </li>
