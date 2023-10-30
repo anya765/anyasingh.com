@@ -11,7 +11,7 @@ const otherProjectsData = [
     description4:
       'This project is a fully responsive & complex marketing website with smooth animations built with Next.js & Framer-Motion.',
     imgSrc4: '/static/images/projects/tungsten.png',
-    href4: 'https://jointungsten.com',
+    href4: 'https://anya765.github.io/tungstenwebsite/',
   },
   {
     title4: 'Mamita health - remote maternal healthcare',
