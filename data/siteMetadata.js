@@ -15,7 +15,6 @@ const siteMetadata = {
   email: 'anyasingh070605@gmail.com',
   github: 'https://github.com/anya765',
   twitter: 'https://twitter.com/_anyasingh',
-  youtube: 'https://www.youtube.com/@_anyasingh',
   linkedin: 'https://www.linkedin.com/in/anya-singh',
   medium: 'https://medium.com/@anyasingh',
   locale: 'en-US',
