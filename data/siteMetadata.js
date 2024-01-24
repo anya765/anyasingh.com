@@ -11,7 +11,7 @@ const siteMetadata = {
   siteRepo: '',
   siteLogo: '/static/images/logo.svg',
   image: '/static/images/avatar.png',
-  socialBanner: '/static/images/twitter-card.png',
+  socialBanner: '',
   email: 'anyasingh070605@gmail.com',
   github: 'https://github.com/anya765',
   twitter: 'https://twitter.com/_anyasingh',
