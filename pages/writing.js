@@ -16,7 +16,7 @@ export default function writing() {
         <div>
           <ul>
             <h3>
-              <a href="https://anyasingh.com/choosinggfriends">
+              <a href="https://anyasingh.com/choosingfriends">
                 <u>Choosing good friends</u>
               </a>{' '}
             </h3>
