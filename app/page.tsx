@@ -2,13 +2,13 @@ import { Suspense } from 'react';
 import { unstable_noStore as noStore } from 'next/cache';
 import Link from 'next/link';
 import Image from 'next/image';
-// import smashing from 'public/images/home/smashing.jpg';
-// import summit from 'public/images/home/summit.jpg';
-// import reactathon from 'public/images/home/reactathon.jpg';
-// import ship from 'public/images/home/ship.jpg';
-// import filming from 'public/images/home/filming.jpg';
-// import meetups from 'public/images/home/meetups.jpg';
-// import vercel from 'public/images/home/vercel.jpg';
+import conf from 'public/images/me/conf.jpg';
+import collision from 'public/images/me/collision.jpg';
+import drone from 'public/images/me/drone.jpg';
+import nyc from 'public/images/me/nyc.jpg';
+import sbs from 'public/images/me/sbs.jpg';
+import drone2 from 'public/images/me/drone2.jpg';
+import beach from 'public/images/me/beach.jpg';
 // import avatar from 'app/avatar.jpg';
 import ViewCounter from 'app/blog/view-counter';
 import { PreloadResources } from 'app/preload';
@@ -199,18 +199,20 @@ export default function Page() {
                     Peter Thiel
                 </Badge>
                 {` amongst other world-class investors. `}
-                {`, where I help teach the `}
-                <Badge href="https://nextjs.org">
+
+
+                {` Before that, I was also the lead engineer at`}
+                <Badge href="https://www.linkedin.com/company/pxlelite/about/">
                     <img
-                        alt="Next.js logomark"
+                        alt="PXL"
                         src="/next-logo.svg"
                         className="!mr-1"
                         width="14"
                         height="14"
                     />
-                    Next.js
+                    PXL
                 </Badge>
-                {` community, an open-source web framework built with `}
+                {` a (now-acquired) wearables company building robust tracking systems for performance athletes `}
                 <Badge href="https://react.dev">
                     <svg
                         width="14"
@@ -223,71 +225,71 @@ export default function Page() {
                     </svg>
                     React
                 </Badge>
-
-                <Link href="/work">worked</Link>
-                .
+                <br/><br/>
+                {` To read more about my adventures building harware, check out my `}
+                <Link href="/work">work</Link>
             </p>
             <div className="grid grid-cols-2 grid-rows-4 sm:grid-rows-3 sm:grid-cols-3 gap-4 my-8">
-                {/*<div className="relative h-40">*/}
-                {/*    <Image*/}
-                {/*        alt="Me speaking on stage at React Summit about the future of Next.js"*/}
-                {/*        src={summit}*/}
-                {/*        fill*/}
-                {/*        sizes="(max-width: 768px) 213px, 33vw"*/}
-                {/*        priority*/}
-                {/*        className="rounded-lg object-cover"*/}
-                {/*    />*/}
-                {/*</div>*/}
-                {/*<div className="relative sm:row-span-2 row-span-1">*/}
-                {/*    <Image*/}
-                {/*        alt="Me standing on stage at Reactathon delivering the keynote"*/}
-                {/*        src={reactathon}*/}
-                {/*        fill*/}
-                {/*        sizes="(max-width: 768px) 213px, 33vw"*/}
-                {/*        priority*/}
-                {/*        className="rounded-lg object-cover object-top sm:object-center"*/}
-                {/*    />*/}
-                {/*</div>*/}
-                {/*<div className="relative">*/}
-                {/*    <Image*/}
-                {/*        alt="Me and Guillermo Rauch on stage for Vercel Ship, answering questions from the Next.js community"*/}
-                {/*        src={ship}*/}
-                {/*        fill*/}
-                {/*        sizes="(max-width: 768px) 213px, 33vw"*/}
-                {/*        priority*/}
-                {/*        className="rounded-lg object-cover"*/}
-                {/*    />*/}
-                {/*</div>*/}
-                {/*<div className="relative row-span-2">*/}
-                {/*    <Image*/}
-                {/*        alt="Me, Lydia, and Delba filming the Next.js Conf keynote"*/}
-                {/*        src={filming}*/}
-                {/*        fill*/}
-                {/*        sizes="(max-width: 768px) 213px, 33vw"*/}
-                {/*        priority*/}
-                {/*        className="rounded-lg object-cover sm:object-center"*/}
-                {/*    />*/}
-                {/*</div>*/}
-                {/*<div className="relative row-span-2">*/}
-                {/*    <Image*/}
-                {/*        alt="My badge on top of a pile of badges from a Vercel meetup we held"*/}
-                {/*        src={meetups}*/}
-                {/*        fill*/}
-                {/*        sizes="(max-width: 768px) 213px, 33vw"*/}
-                {/*        priority*/}
-                {/*        className="rounded-lg object-cover"*/}
-                {/*    />*/}
-                {/*</div>*/}
-                {/*<div className="relative h-40">*/}
-                {/*    <Image*/}
-                {/*        alt="Me standing on stage at SmashingConf giving a talk about my optimism for the web"*/}
-                {/*        src={smashing}*/}
-                {/*        fill*/}
-                {/*        sizes="(max-width: 768px) 213px, 33vw"*/}
-                {/*        priority*/}
-                {/*        className="rounded-lg object-cover"*/}
-                {/*    />*/}
-                {/*</div>*/}
+                <div className="relative h-40">
+                    <Image
+                        alt="Me speaking on stage at React Summit about the future of Next.js"
+                        src={nyc}
+                        fill
+                        sizes="(max-width: 768px) 213px, 33vw"
+                        priority
+                        className="rounded-lg object-cover"
+                    />
+                </div>
+                <div className="relative sm:row-span-2 row-span-1">
+                    <Image
+                        alt="Me standing on stage at Reactathon delivering the keynote"
+                        src={collision}
+                        fill
+                        sizes="(max-width: 768px) 213px, 33vw"
+                        priority
+                        className="rounded-lg object-cover object-top sm:object-center"
+                    />
+                </div>
+                <div className="relative">
+                    <Image
+                        alt="Me and Guillermo Rauch on stage for Vercel Ship, answering questions from the Next.js community"
+                        src={beach}
+                        fill
+                        sizes="(max-width: 768px) 213px, 33vw"
+                        priority
+                        className="rounded-lg object-cover"
+                    />
+                </div>
+                <div className="relative row-span-2">
+                    <Image
+                        alt="Me, Lydia, and Delba filming the Next.js Conf keynote"
+                        src={drone}
+                        fill
+                        sizes="(max-width: 768px) 213px, 33vw"
+                        priority
+                        className="rounded-lg object-cover sm:object-center"
+                    />
+                </div>
+                <div className="relative row-span-2">
+                    <Image
+                        alt="My badge on top of a pile of badges from a Vercel meetup we held"
+                        src={conf}
+                        fill
+                        sizes="(max-width: 768px) 213px, 33vw"
+                        priority
+                        className="rounded-lg object-cover"
+                    />
+                </div>
+                <div className="relative h-40">
+                    <Image
+                        alt="Me standing on stage at SmashingConf giving a talk about my optimism for the web"
+                        src={sbs}
+                        fill
+                        sizes="(max-width: 768px) 213px, 33vw"
+                        priority
+                        className="rounded-lg object-cover"
+                    />
+                </div>
             </div>
             <div className="prose prose-neutral dark:prose-invert">
                 <p>
