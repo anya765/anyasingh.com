@@ -136,7 +136,7 @@ export default function Page() {
         <section>
             <PreloadResources />
             <h1 className="mb-8 text-2xl font-medium tracking-tighter">
-                hey, i'm Anya 👋
+                hey, i'm Anya
             </h1>
             <p className="prose prose-neutral dark:prose-invert">
                 {`I'm an electro-mechanical engineer who spends most of my time looking at the bleeding edge in defense, mobility and alternate energies.`}
@@ -213,80 +213,83 @@ export default function Page() {
                     PXL
                 </Badge>
                 {` a (now-acquired) wearables company building robust tracking systems for performance athletes. `}
-                <br/><br/>
-                {` To read more about my adventures building hardware, check out my `}
-                <Link href="/work">work</Link>
+                <br/>
+                {/*{` To read more about my adventures building hardware, check out my `}*/}
+                {/*<Link href="/work">work</Link>*/}
             </p>
-            <div className="grid grid-cols-2 grid-rows-4 sm:grid-rows-3 sm:grid-cols-3 gap-4 my-8">
-                <div className="relative h-40">
-                    <Image
-                        alt="Me speaking on stage at React Summit about the future of Next.js"
-                        src={nyc}
-                        fill
-                        sizes="(max-width: 768px) 213px, 33vw"
-                        priority
-                        className="rounded-lg object-cover"
-                    />
-                </div>
-                <div className="relative sm:row-span-2 row-span-1">
-                    <Image
-                        alt="Me standing on stage at Reactathon delivering the keynote"
-                        src={collision}
-                        fill
-                        sizes="(max-width: 768px) 213px, 33vw"
-                        priority
-                        className="rounded-lg object-cover object-top sm:object-center"
-                    />
-                </div>
-                <div className="relative">
-                    <Image
-                        alt="Me and Guillermo Rauch on stage for Vercel Ship, answering questions from the Next.js community"
-                        src={beach}
-                        fill
-                        sizes="(max-width: 768px) 213px, 33vw"
-                        priority
-                        className="rounded-lg object-cover"
-                    />
-                </div>
-                <div className="relative row-span-2">
-                    <Image
-                        alt="Me, Lydia, and Delba filming the Next.js Conf keynote"
-                        src={drone}
-                        fill
-                        sizes="(max-width: 768px) 213px, 33vw"
-                        priority
-                        className="rounded-lg object-cover sm:object-center"
-                    />
-                </div>
-                <div className="relative row-span-2">
-                    <Image
-                        alt="My badge on top of a pile of badges from a Vercel meetup we held"
-                        src={conf}
-                        fill
-                        sizes="(max-width: 768px) 213px, 33vw"
-                        priority
-                        className="rounded-lg object-cover"
-                    />
-                </div>
-                <div className="relative h-40">
-                    <Image
-                        alt="Me standing on stage at SmashingConf giving a talk about my optimism for the web"
-                        src={sbs}
-                        fill
-                        sizes="(max-width: 768px) 213px, 33vw"
-                        priority
-                        className="rounded-lg object-cover"
-                    />
-                </div>
-            </div>
+            {/*<div className="grid grid-cols-2 grid-rows-4 sm:grid-rows-3 sm:grid-cols-3 gap-4 my-8">*/}
+            {/*    <div className="relative h-40">*/}
+            {/*        <Image*/}
+            {/*            alt="Me speaking on stage at React Summit about the future of Next.js"*/}
+            {/*            src={nyc}*/}
+            {/*            fill*/}
+            {/*            sizes="(max-width: 768px) 213px, 33vw"*/}
+            {/*            priority*/}
+            {/*            className="rounded-lg object-cover"*/}
+            {/*        />*/}
+            {/*    </div>*/}
+            {/*    <div className="relative sm:row-span-2 row-span-1">*/}
+            {/*        <Image*/}
+            {/*            alt="Me standing on stage at Reactathon delivering the keynote"*/}
+            {/*            src={collision}*/}
+            {/*            fill*/}
+            {/*            sizes="(max-width: 768px) 213px, 33vw"*/}
+            {/*            priority*/}
+            {/*            className="rounded-lg object-cover object-top sm:object-center"*/}
+            {/*        />*/}
+            {/*    </div>*/}
+            {/*    <div className="relative">*/}
+            {/*        <Image*/}
+            {/*            alt="Me and Guillermo Rauch on stage for Vercel Ship, answering questions from the Next.js community"*/}
+            {/*            src={beach}*/}
+            {/*            fill*/}
+            {/*            sizes="(max-width: 768px) 213px, 33vw"*/}
+            {/*            priority*/}
+            {/*            className="rounded-lg object-cover"*/}
+            {/*        />*/}
+            {/*    </div>*/}
+            {/*    <div className="relative row-span-2">*/}
+            {/*        <Image*/}
+            {/*            alt="Me, Lydia, and Delba filming the Next.js Conf keynote"*/}
+            {/*            src={drone}*/}
+            {/*            fill*/}
+            {/*            sizes="(max-width: 768px) 213px, 33vw"*/}
+            {/*            priority*/}
+            {/*            className="rounded-lg object-cover sm:object-center"*/}
+            {/*        />*/}
+            {/*    </div>*/}
+            {/*    <div className="relative row-span-2">*/}
+            {/*        <Image*/}
+            {/*            alt="My badge on top of a pile of badges from a Vercel meetup we held"*/}
+            {/*            src={conf}*/}
+            {/*            fill*/}
+            {/*            sizes="(max-width: 768px) 213px, 33vw"*/}
+            {/*            priority*/}
+            {/*            className="rounded-lg object-cover"*/}
+            {/*        />*/}
+            {/*    </div>*/}
+            {/*    <div className="relative h-40">*/}
+            {/*        <Image*/}
+            {/*            alt="Me standing on stage at SmashingConf giving a talk about my optimism for the web"*/}
+            {/*            src={sbs}*/}
+            {/*            fill*/}
+            {/*            sizes="(max-width: 768px) 213px, 33vw"*/}
+            {/*            priority*/}
+            {/*            className="rounded-lg object-cover"*/}
+            {/*        />*/}
+            {/*    </div>*/}
+            {/*</div>*/}
             <div className="prose prose-neutral dark:prose-invert">
-                <p>
-                    I create educational content for developers, teaching them about web
-                    development, JavaScript and TypeScript, React and Next.js, and more.
-                    This comes in all forms: blog posts, videos, tweets, conference talks,
-                    and workshops. You can watch some of my favorites below.
-                </p>
-            </div>
+            <p>
+            {` I've also had a few other adventures I've been fortunate enough to embark on:  `}
+            <br/>
+            {`→ Served as a member of the Canadian National Chess team`} <br/>
+            {`→ Used machine learning models to formulate new types of batteries `} <br/>
+            {`→ Analyzed satellite telemetry data @ JPL`} <br/>
+            {`→ Researched xyz for Purdue and EF `} <br/>
+            {`→ Built climate resilient housing for droughts in Kenya `} <br/>
+            {`→ Worked on a project to reduce the cost of solar panels by 50% `} <br/>
+            </p>
             {/*<div className="my-8 flex w-full flex-col space-x-0 space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">*/}
             {/*    <ChannelLink*/}
             {/*        img={avatar}*/}
@@ -298,7 +301,7 @@ export default function Page() {
             {/*        name="@vercel"*/}
             {/*        link="https://www.youtube.com/@vercelhq"*/}
             {/*    />*/}
-            {/*</div>*/}
+            </div>
             <div className="prose prose-neutral dark:prose-invert">
                 <p>
                     Over the past decade, I've written content on my blog and newsletter.
@@ -315,67 +318,67 @@ export default function Page() {
                 <BlogLink name="What is Developer Relations?" slug="devrel" />
                 <BlogLink name="The Story of Heroku" slug="heroku" />
             </div>
-            <div className="prose prose-neutral dark:prose-invert">
-                <p>
-                    I invest small angel checks into early stage startups building tools
-                    for developers.
-                </p>
-            </div>
-            <div className="my-8 flex h-14 w-full flex-row space-x-2 overflow-x-auto">
-                <div className="flex items-center justify-between rounded border border-neutral-200 bg-neutral-50 px-3 py-4 dark:border-neutral-700 dark:bg-neutral-800">
-                    <a href="https://linear.app">
-                        <svg width="78" height="20" role="img" aria-label="Linear logo">
-                            <use href="/sprite.svg#linear" />
-                        </svg>
-                    </a>
-                </div>
-                <div className="flex items-center justify-between rounded border border-neutral-200 bg-neutral-50 px-3 py-4 dark:border-neutral-700 dark:bg-neutral-800">
-                    <a href="https://supabase.com">
-                        <svg width="100" height="19" role="img" aria-label="Supabase logo">
-                            <use href="/sprite.svg#supabase" />
-                        </svg>
-                    </a>
-                </div>
-                <div className="flex items-center justify-between rounded border border-neutral-200 bg-neutral-50 px-3 py-4 dark:border-neutral-700 dark:bg-neutral-800">
-                    <a href="https://www.makeswift.com/blog/makeswift-is-joining-bigcommerce">
-                        <svg width="96" height="19" role="img" aria-label="Makeswift logo">
-                            <use href="/sprite.svg#makeswift" />
-                        </svg>
-                    </a>
-                </div>
-                <div className="flex items-center justify-between rounded border border-neutral-200 bg-neutral-50 px-3 py-4 dark:border-neutral-700 dark:bg-neutral-800">
-                    <a href="https://resend.com">
-                        <svg width="70" height="17" role="img" aria-label="Resend logo">
-                            <use href="/sprite.svg#resend" />
-                        </svg>
-                    </a>
-                </div>
-                <div className="flex items-center justify-between rounded border border-neutral-200 bg-neutral-50 px-3 py-4 dark:border-neutral-700 dark:bg-neutral-800">
-                    <a href="https://bun.sh">
-                        <svg width="35" height="27" role="img" aria-label="Bun logo">
-                            <use href="/sprite.svg#bun" />
-                        </svg>
-                    </a>
-                </div>
-            </div>
-            <div className="prose prose-neutral dark:prose-invert">
-                <p>
-                    I've worked with and advised companies on{' '}
-                    <Link href="/blog/developer-marketing">developer marketing</Link>,{' '}
-                    <Link href="/blog/devrel">developer relations</Link>, building
-                    open-source communities, product-led growth, and more.
-                </p>
-            </div>
+            {/*<div className="prose prose-neutral dark:prose-invert">*/}
+            {/*    <p>*/}
+            {/*        I invest small angel checks into early stage startups building tools*/}
+            {/*        for developers.*/}
+            {/*    </p>*/}
+            {/*</div>*/}
+            {/*<div className="my-8 flex h-14 w-full flex-row space-x-2 overflow-x-auto">*/}
+            {/*    <div className="flex items-center justify-between rounded border border-neutral-200 bg-neutral-50 px-3 py-4 dark:border-neutral-700 dark:bg-neutral-800">*/}
+            {/*        <a href="https://linear.app">*/}
+            {/*            <svg width="78" height="20" role="img" aria-label="Linear logo">*/}
+            {/*                <use href="/sprite.svg#linear" />*/}
+            {/*            </svg>*/}
+            {/*        </a>*/}
+            {/*    </div>*/}
+            {/*    <div className="flex items-center justify-between rounded border border-neutral-200 bg-neutral-50 px-3 py-4 dark:border-neutral-700 dark:bg-neutral-800">*/}
+            {/*        <a href="https://supabase.com">*/}
+            {/*            <svg width="100" height="19" role="img" aria-label="Supabase logo">*/}
+            {/*                <use href="/sprite.svg#supabase" />*/}
+            {/*            </svg>*/}
+            {/*        </a>*/}
+            {/*    </div>*/}
+            {/*    <div className="flex items-center justify-between rounded border border-neutral-200 bg-neutral-50 px-3 py-4 dark:border-neutral-700 dark:bg-neutral-800">*/}
+            {/*        <a href="https://www.makeswift.com/blog/makeswift-is-joining-bigcommerce">*/}
+            {/*            <svg width="96" height="19" role="img" aria-label="Makeswift logo">*/}
+            {/*                <use href="/sprite.svg#makeswift" />*/}
+            {/*            </svg>*/}
+            {/*        </a>*/}
+            {/*    </div>*/}
+            {/*    <div className="flex items-center justify-between rounded border border-neutral-200 bg-neutral-50 px-3 py-4 dark:border-neutral-700 dark:bg-neutral-800">*/}
+            {/*        <a href="https://resend.com">*/}
+            {/*            <svg width="70" height="17" role="img" aria-label="Resend logo">*/}
+            {/*                <use href="/sprite.svg#resend" />*/}
+            {/*            </svg>*/}
+            {/*        </a>*/}
+            {/*    </div>*/}
+            {/*    <div className="flex items-center justify-between rounded border border-neutral-200 bg-neutral-50 px-3 py-4 dark:border-neutral-700 dark:bg-neutral-800">*/}
+            {/*        <a href="https://bun.sh">*/}
+            {/*            <svg width="35" height="27" role="img" aria-label="Bun logo">*/}
+            {/*                <use href="/sprite.svg#bun" />*/}
+            {/*            </svg>*/}
+            {/*        </a>*/}
+            {/*    </div>*/}
+            {/*</div>*/}
+            {/*<div className="prose prose-neutral dark:prose-invert">*/}
+            {/*    <p>*/}
+            {/*        I've worked with and advised companies on{' '}*/}
+            {/*        <Link href="/blog/developer-marketing">developer marketing</Link>,{' '}*/}
+            {/*        <Link href="/blog/devrel">developer relations</Link>, building*/}
+            {/*        open-source communities, product-led growth, and more.*/}
+            {/*    </p>*/}
+            {/*</div>*/}
             <ul className="font-sm mt-8 flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300">
                 <li>
                     <a
                         className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
                         rel="noopener noreferrer"
                         target="_blank"
-                        href="https://twitter.com/leeerob"
+                        href="https://www.linkedin.com/in/anya-singh/"
                     >
-                        <ArrowIcon />
-                        <p className="ml-2 h-7">follow me</p>
+                        <ArrowIcon/>
+                        <p className="ml-2 h-7">linkedin</p>
                     </a>
                 </li>
                 <li>
@@ -383,10 +386,10 @@ export default function Page() {
                         className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
                         rel="noopener noreferrer"
                         target="_blank"
-                        href="https://leerob.substack.com"
+                        href="https://twitter.com/_anyasingh"
                     >
-                        <ArrowIcon />
-                        <p className="ml-2 h-7">get email updates</p>
+                        <ArrowIcon/>
+                        <p className="ml-2 h-7">twitter</p>
                     </a>
                 </li>
             </ul>
