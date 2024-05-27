@@ -212,21 +212,9 @@ export default function Page() {
                     />
                     PXL
                 </Badge>
-                {` a (now-acquired) wearables company building robust tracking systems for performance athletes `}
-                <Badge href="https://react.dev">
-                    <svg
-                        width="14"
-                        height="14"
-                        role="img"
-                        aria-label="React logo"
-                        className="!mr-1"
-                    >
-                        <use href="/sprite.svg#react" />
-                    </svg>
-                    React
-                </Badge>
+                {` a (now-acquired) wearables company building robust tracking systems for performance athletes. `}
                 <br/><br/>
-                {` To read more about my adventures building harware, check out my `}
+                {` To read more about my adventures building hardware, check out my `}
                 <Link href="/work">work</Link>
             </p>
             <div className="grid grid-cols-2 grid-rows-4 sm:grid-rows-3 sm:grid-cols-3 gap-4 my-8">
